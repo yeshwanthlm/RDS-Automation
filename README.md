@@ -7,6 +7,7 @@ This solution uses AWS Lambda to fetch recommendations, Amazon EventBridge to ru
 > **Note**: This guide is based on the official AWS Database Blog post: [Automating Amazon RDS and Amazon Aurora recommendations via notification with AWS Lambda, Amazon EventBridge, and Amazon SES](https://aws.amazon.com/blogs/database/).
 
 ## Solution Architecture
+![DBBLOG-4487-arch-diag](https://github.com/user-attachments/assets/a0148555-24af-48eb-ab92-13221498dfb5)
 
 The process is fully automated. An Amazon EventBridge schedule triggers an AWS Lambda function at a defined interval. The Lambda function retrieves recommendations for Amazon RDS and Aurora, filters them based on predefined tags, formats the data into an HTML email, and uses Amazon SES to send the report to specified recipients.
 

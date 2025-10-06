@@ -305,7 +305,7 @@ Create an EventBridge rule to trigger the Lambda function automatically on a sch
 3. Choose **Create rule**
 4. Enter a **Name** for your rule (e.g., `RDS-Recommendations-Scheduler`)
 5. In the **Define pattern** section, select **Schedule**
-6. Choose a schedule that fits your needs. For a daily report at 10:00 AM UTC, select **Cron expression** and enter `cron(0 10 * * ? *)`
+6. Choose a schedule that fits your needs. For a daily report at 10:00 AM UTC, select **Cron expression** and enter `cron(0 10 * * ? *)` or `cron(0/2 * * * ? *)` to trigger every 2 minutes.
 7. Click **Next**
 8. In the **Select target(s)** section, choose **AWS service**
 9. From the **Select a target** dropdown, choose **Lambda function**

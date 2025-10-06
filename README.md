@@ -4,7 +4,7 @@ This repository contains the code and instructions to deploy a serverless soluti
 
 This solution uses AWS Lambda to fetch recommendations, Amazon EventBridge to run the function on a schedule, and Amazon Simple Email Service (SES) to send the notifications.
 
-> **Note**: This guide is based on the official AWS Database Blog post: [Automating Amazon RDS and Amazon Aurora recommendations via notification with AWS Lambda, Amazon EventBridge, and Amazon SES](https://aws.amazon.com/blogs/database/).
+> **Note**: This guide is based on the official AWS Database Blog post: [Automating Amazon RDS and Amazon Aurora recommendations via notification with AWS Lambda, Amazon EventBridge, and Amazon SES]([https://aws.amazon.com/blogs/database/](https://aws.amazon.com/blogs/database/automating-amazon-rds-and-amazon-aurora-recommendations-via-notification-with-aws-lambda-amazon-eventbridge-and-amazon-ses/)).
 
 ## Solution Architecture
 ![DBBLOG-4487-arch-diag](https://github.com/user-attachments/assets/a0148555-24af-48eb-ab92-13221498dfb5)
